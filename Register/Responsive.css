@@ -1,0 +1,74 @@
+@media only screen and (max-width: 800px) and (min-width:100px){
+    body{
+      overflow-x: hidden;
+    }
+     .content1{
+        width: 100%;
+        position: relative;
+        left:0;
+        align-content: center;
+        font-family: Century-gothic;
+        
+     }
+     .fontsize{
+        font-size: 3vw;
+        font-family: Century-gothic;
+     }
+     form{
+        font-size: 3vw;
+        text-align: justify;
+        margin-left: 30.5vw;
+        font-family: Century-gothic;
+        
+
+    }
+    
+    .typefield{
+        font-size: 3vw;
+        color: black;
+        width: 30vw;
+        height: 5vw;
+    }
+    .radio1{
+        width:2vw;
+        height: 2vw;
+    }
+    .checkbox1{
+        width: 2vw;
+        height: 2vw;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        overflow-x: visible;
+    }
+    .submit .submit{
+        height: 5vw;
+        background-color: #4CAF50;
+        font-size: 3vw;
+        border: none;
+        color: white;
+        padding: 0vw 0vw;
+        text-decoration: none;
+        margin: 0.5vw 0.5vw;
+        font-family: Century-gothic;
+        cursor: pointer;
+        position: relative;
+        top:0;
+    }
+    
+    .submit .submit:hover{
+        font-size: 3vw;
+        color:darkred;
+        border: none;
+        background-color: darkgreen;
+        padding: 0vw 0vw;
+        font-weight: bold;
+        margin: 0.5vw 0.5vw;
+        cursor: pointer;
+    }
+    }
+    
+    

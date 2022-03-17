@@ -1,0 +1,42 @@
+@media only screen and (max-width: 800px) and (min-width:100px){
+    footer{
+        width: 100%;
+        position: absolute;;
+     bottom:0;
+    }
+    .row{
+      margin:0 0.4vw 0 0.1vw;
+      padding:0 0.4vw 0 0.1vw;
+      max-width: 75vw;
+      left: 9vw;
+      top:0;
+      margin-top: 17vw;
+     
+  
+    }
+    .container{
+      height: 90vw;
+    }
+    .product-grid .product-image img{
+      width:14.7vw;
+      height: 21vw;
+    }
+    #promo{
+      position: relative;
+      bottom:0;
+    }
+    .btnee{
+        top:17vw;
+        padding:2vw;
+        left:7vw;
+        font-size: 1.3vw;
+  
+      }
+    .foot h1{
+      font-size: 2vw;
+
+    }
+    
+  }
+  
+  

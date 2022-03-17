@@ -1,0 +1,20 @@
+@media only screen and (max-width: 800px) and (min-width:100px){
+ 
+    .foot h1{
+        font-size: 3vw;
+    }
+    .container1{
+        position: relative;
+        left:0;
+        width: 100%;
+        background-image: url(images/awards.jpg);
+        background-size: 100vw 40vw;
+        
+        height:41vw;
+  
+        background-repeat: no-repeat;
+    }
+    
+   
+  }
+  

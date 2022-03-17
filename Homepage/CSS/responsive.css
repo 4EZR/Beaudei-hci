@@ -1,0 +1,24 @@
+@media only screen and (max-width: 800px) and (min-width:100px){
+    footer{
+        width: 100%;
+        
+    }
+    .foot h1{
+        font-size: 3vw;
+    }
+    .services { 
+        width: 100%;
+     }
+     header{
+         position: fixed;
+         height:10vw;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         background:white;
+         z-index: 1000;
+         padding-top: 3vw;
+     }
+  }
+  
+  

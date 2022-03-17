@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Beaudei - High-Quality Makeup and Skincare</title>
+    <link rel="icon" type="image/x-icon" href="images/SmallIcon.png">
+    <script src="scripts.js"></script>
+    
+</head>
+<body>
+    <!-- header -->
+    <header id="header ">
+        <div class="Logo">
+            <a href="../homepage/home.html" class="logo">
+                <img src="images/logos.png" alt="">
+            </a> 
+        </div>
+       
+        <nav class="Navbar">
+        <ul> 
+            <a href="javascript:void(0);" class="mobile-menu"><i class="ti-menu"></i></a>
+            <li><a href="../Homepage/Home.html"  >Home</a></li>
+            <li><a href="../Promotion/Promotion.html">Promotion</a></li>
+            <li class="Dropdown">
+                <a href="#">Product<i class="arrow down"></i></a>
+                
+                <ul class="sub-menu">
+                <li><a  href="../skincare/skincare.html">Skincare</a></li>
+                <li><a  href="../makeup/makeup.html">Makeup</a></li>
+                </ul>
+            </li>
+            <li><a href="Register.html" class="active">Register</a></li>      
+        </ul>
+        </nav> 
+    </header>
+</div>
+
+<div class="content1">
+    <p class="id">Create An Account</p>
+    <br>
+    <form class="myForm" onsubmit="return validateForm()" method="post">
+        <label class="fontsize">Name :</label><br>
+        <input type="text" id="fname" name="fname" class="typefield"><br><br>
+
+        <label class="fontsize">Email :</label><br>
+        <input type="text" id= "email" class="typefield"><br><br>
+
+        <label class="fontsize">Password :</label><br>
+        <input type="password" id= "passwords" class="typefield">
+        <input type="checkbox"  class="checkbox1" onclick="myFunction()">Show Password<br><br>
+        
+
+        <label class="fontsize">Address :</label><br>
+        <input type="text" id= "address" class="typefield"><br><br>
+        
+
+        <label class="fontsize" >Gender :</label><br>
+        <input type="radio" class="radio1" name="gender" id="male" value="male"> Male<br>
+        <input type="radio" class="radio1" name="gender" id="female" value="female"> Female<br><br>
+
+        <label class="fontsize">Skin Type :</label><br>
+        <input type="text" id= "skintype" class="typefield"><br><br>
+
+        <input type="checkbox" id="checkbox" class="checkbox1">
+        <label for="text" class="fontsize" >I Agree to the term and conditions.</label><br>
+          <br><br>
+        <div class="submit">
+             <input type="submit" value="Submit" class="submit" style="width: 24.5vw; background-color:darkcyan;">
+        </div>
+    </form>
+</div>
+
+<!--Services-->
+    
+<div class ="services" >
+    <div class="affordable" >
+        <i class="fa fa-usd"></i>
+        <span class="br"></span>
+        <p class="servis">AFFORDABLE</p>
+    </div>
+    <div class="ongkir">
+        <i class="fa fa-truck" ></i>
+        <span class="br"></span>
+        <p class="servis">FREE DELIVERY</p>
+    </div>
+    <div class="cod">
+        <i class="fa fa-handshake-o" ></i>
+        <span class="br"></span>
+        <p class="servis">COD</p>
+    </div>
+    <div class="garansi">
+        <i class="fa fa-check-square-o" ></i>
+        <span class="br"></span>
+        <p class="servis">GUARANTEE</p>
+    </div>
+</div>
+ <!-- footer -->
+ <footer>
+</div>
+<div class="container-fluid" id="promo">
+    <div class= promo">
+        <div class="row4">
+            <div class="follow">
+                <h1 >
+                    Follow Us On
+                </h1><br/>
+                <div class="sociale">
+                    <a href="https://www.facebook.com/">	<i class="fa fa-facebook" ></i></a>
+                    <a href="https://twitter.com/">	<i class="fa fa-twitter" ></i></a>
+                    <a href="https://www.instagram.com/">	<i class="fa fa-instagram" ></i></a>
+                    
+                </div>
+            </div>
+            
+            <div class="reg">
+                <h2 class="regis">Register to get discount<br/> coupons & new Offers!</h2>
+                    <a href="../Register/Register.html"><button class="button" style="vertical-align:middle"><span>REGISTER</span></a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="foot"><h1>© 2020 BEAUDEI</h1></div>
+</div>
+</footer>
+</body>
+</html>
