@@ -199,7 +199,7 @@
 .services{
     clear: both;
     overflow: hidden;
-    background-image: url(Images/discount.png);
+    background-image: url(images/discount.png);
 	background-attachment: fixed;
 	background-size: cover;
     background-repeat: no-repeat;
