@@ -466,7 +466,7 @@ section .slide{
     top:2vw;
     padding-bottom: 2vw;
     display: block;
-    background-image: url(../Images/discount.png);
+    background-image: url(../images/discount.png);
 	background-attachment: fixed;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -760,7 +760,7 @@ font-weight: bolder;
         
        
 #promo{
-	background-image: url(../Images/discount.png);
+	background-image: url(../images/discount.png);
 	background-attachment: fixed;
 	background-size: cover;
     background-repeat: no-repeat;
