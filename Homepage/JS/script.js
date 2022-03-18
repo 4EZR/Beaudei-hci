@@ -9,7 +9,7 @@ function nextImage(){
   }else{
       i = 1;
   }
-    slider_content.innerHTML = "<a href='Home.html'><img src= Images/"+image[i-1]+".png></a> ";
+    slider_content.innerHTML = "<a href='Home.html'><img src= images/"+image[i-1]+".PNG></a> ";
 } );
 
 function prewImage(){
@@ -20,7 +20,7 @@ function prewImage(){
   else{
       i = image.length;
   }
-slider_content.innerHTML = "<a href='Home.html'><img src= Images/"+image[i-1]+".png></a> ";
+slider_content.innerHTML = "<a href='Home.html'><img src= images/"+image[i-1]+".PNG></a> ";
   } 
     setInterval(nextImage , 4000);
 
