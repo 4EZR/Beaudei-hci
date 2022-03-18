@@ -4,11 +4,11 @@ var images = [];
 var time = 3000;
 
 // Image List
-images[0]= "images/SLIDE1.png";
-images[1]= "images/SLIDE2.png";
+images[0]= "images/SLIDE1.PNG";
+images[1]= "images/SLIDE2.PNG";
 images[2]= "images/SLIDE3.png";
 images[3]= "images/SLIDE4.png";
-images[4]="imageS/1.PNG";
+images[4]="imageS/1.png";
 
 //Change Image
 function changeImg(){
